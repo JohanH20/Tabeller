@@ -1,0 +1,45 @@
+table{
+    width:80%;
+    border:1px solid black;
+    border-collapse:collapse;
+}
+thead{
+    background-color:grey;
+}
+tr.johanh{
+    background-color:blue;
+}
+tr.johanw{
+    background-color:blue;
+}
+tr.pascal{
+    background-color:red;
+}
+tr.max{
+    background-color:red;
+}
+caption{
+    caption-side:bottom;
+    font-size:20px;
+}
+td{
+    border:1px solid black;
+}
+th{
+    border:1px solid black;
+}
+td:nth-child(2){
+    text-align:center;
+}
+td:nth-child(3){
+    text-align:center;
+}
+td:nth-child(4){
+    text-align:right;
+}
+th:nth-child(1){
+    text-align:left;
+}
+th:nth-child(4){
+    text-align:right;
+}
